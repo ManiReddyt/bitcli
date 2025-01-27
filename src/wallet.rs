@@ -138,7 +138,7 @@ impl Wallet {
     fn get_storage_path() -> PathBuf {
         // Get the OS-specific data directory and append your app's name
         let mut path = data_dir().expect("Could not find data directory");
-        path.push("bitcoin-cli");
+        path.push("bitcli");
         fs::create_dir_all(&path).expect("Failed to create app data directory");
         path
     }
