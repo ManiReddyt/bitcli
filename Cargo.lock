@@ -134,6 +134,23 @@ dependencies = [
 ]
 
 [[package]]
+name = "bitcli"
+version = "0.1.0"
+dependencies = [
+ "bip39",
+ "bitcoin",
+ "clap",
+ "dirs-next",
+ "dotenv",
+ "hex",
+ "indicatif",
+ "rand",
+ "reqwest",
+ "serde",
+ "tokio",
+]
+
+[[package]]
 name = "bitcoin"
 version = "0.32.5"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -148,23 +165,6 @@ dependencies = [
  "hex-conservative",
  "hex_lit",
  "secp256k1",
-]
-
-[[package]]
-name = "bitcoin-cli"
-version = "0.1.0"
-dependencies = [
- "bip39",
- "bitcoin",
- "clap",
- "dirs-next",
- "dotenv",
- "hex",
- "indicatif",
- "rand",
- "reqwest",
- "serde",
- "tokio",
 ]
 
 [[package]]

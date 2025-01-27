@@ -1,5 +1,5 @@
 [package]
-name = "bitcoin-cli"
+name = "bitcli"
 author = "mani"
 version = "0.1.0"
 edition = "2021"
