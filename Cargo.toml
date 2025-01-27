@@ -3,6 +3,9 @@ name = "bitcoin-cli"
 author = "mani"
 version = "0.1.0"
 edition = "2021"
+description = "A simple CLI-based Bitcoin wallet written in Rust to handle all the basic Bitcoin operations."
+repository = "https://github.com/ManiReddyt/bitcoin-cli"
+license = "MIT"
 
 [dependencies]
 clap = { version = "4.5.27", features = ["derive"] }
