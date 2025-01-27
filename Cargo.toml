@@ -1,7 +1,7 @@
 [package]
 name = "bitcli"
 author = "mani"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 description = "A simple CLI-based Bitcoin wallet written in Rust to handle all the basic Bitcoin operations."
 repository = "https://github.com/ManiReddyt/bitcli"
